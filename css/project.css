@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+}
+
+/* Меню */
+header{
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header div{
+    display: inline-block;
+}
+
+.menu-body li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Logo img{
+    width: 70px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.menu-body a{
+    text-decoration: none;
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+    color: #a3a2a3;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu-body li a:hover{
+    color: black;
+}
+
+/* верхняя инфа */
+.top{
+    padding-top: 150px;
+    padding-left: 10px;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.top a{
+    color: #a3a2a3;
+    text-decoration: none;
+} 
+.top span{
+    color: #a3a2a3;
+    padding-right: 400px;
+}
+.about_top_inf h1{
+    font-size: 60px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+
+.pr_table{
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    padding-bottom: 80px;
+}
+
+.pr_1 img{
+    width: 700px;
+    height: 500px;
+    padding-right: 20px;
+}
+.pr_1 img:hover{
+    opacity: 0.7;
+}
+.pr_2 img{
+    width: 700px;
+    height: 500px;  
+}
+.pr_2 img:hover{
+    opacity: 0.7;
+}
+.pr_3 img{
+    width: 700px;
+    height: 500px;
+    padding-right: 20px;
+}
+.pr_3 img:hover{
+    opacity: 0.7;
+}
+.pr_4 img{
+    width: 700px;
+    height: 500px;  
+}
+.pr_4 img:hover{
+    opacity: 0.7;
+}
+.pr_5 img{
+    width: 700px;
+    height: 500px;
+    padding-right: 20px;
+}
+.pr_5 img:hover{
+    opacity: 0.7;
+}
+.pr_6 img{
+    width: 700px;
+    height: 500px;  
+}
+.pr_6 img:hover{
+    opacity: 0.7;
+}
+
+
+/* Обратная связь */
+.form_top{
+    color: #a3a2a3;
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 500px;
+}
+.form_bot{
+    font-size: 44px;
+    font-weight: 500;
+}
+.form_data{
+    padding-left: 500px;
+    margin-top: -100px;
+}
+.form_data input{
+    color: rgb(33, 32, 33);
+    border: 0;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    font-size: 20px;
+    font-weight: 400;
+    height: 45px;
+    outline: none;
+    width: 95%;
+}
+.button_form{
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: .03vw;
+    padding: 15px;
+    width: 95%;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #212021;
+    outline:auto;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.button_form a{
+    text-decoration: none;
+    color: white;
+}
+.button_form:hover{
+    background-color: #505050;
+}
+
+/* Контакты */
+
+.logo_inf{
+    display: inline;
+}
+.logo_inf img{
+    width: 40px;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.logo_inf span{
+    line-height: 18px;
+    color: #a3a2a3;
+    padding-left: 10px;
+}
+/* Контакты */
+.contacts{
+    padding-left: 300px;
+    margin-top: -60px;
+}
+.contacts p{
+    line-height: 28px;
+    color: #a3a2a3;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.contacts a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.contacts span{
+    line-height: 25px;
+    padding-left: 10px;
+}
+.contacts a:hover{
+    text-decoration: none;
+    color: #6a6a6a;
+}
+/* Соц сети */
+.app{
+    padding-left: 600px;
+    margin-top: -100px;
+}
+.app span{
+    line-height: 28px;
+    color: #a3a2a3;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.app a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.app a:hover{
+    text-decoration: none;
+    color: #2254bf;
+}
+.button_up{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 93%;
+    padding-bottom: 50px;
+}
+.button_up:hover{
+    text-decoration: none;
+    color: #2271c6;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 93%;
+}

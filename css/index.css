@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+}
+
+/* Меню */
+header{
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header div{
+    display: inline-block;
+}
+
+.menu-body li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Logo img{
+    width: 70px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.menu-body a{
+    text-decoration: none;
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+    color: #a3a2a3;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu-body li a:hover{
+    color: black;
+}
+
+/* верхняя инфа */
+table{
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+    padding-top: 100px;
+}
+
+.left{
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 500px;
+    font-size: 66px;
+    line-height: 70px;
+    font-weight: 600;
+}
+.right{
+    color: #a3a2a3;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 100px;
+}
+
+.button-start{
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .03vw;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #212021;
+    outline:auto;
+    cursor: pointer;
+        overflow: hidden;
+        margin-top: 20px;
+}
+
+.button-start a{
+    text-decoration: none;
+    color: white;
+}
+
+.button-start:hover{
+    background-color: white;
+}
+.button-start a:hover{
+    color: black;
+}
+
+.top_inf img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* О студии */
+.about_table{
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+    padding-top: 80px;
+}
+
+.about_left{
+    color: #a3a2a3;
+    padding-right: 400px;
+}
+
+.about_r_top{
+    line-height: 45px;
+    font-weight: 550;
+    color: #212021;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.about_r_middle{
+    line-height: 21px;
+    color: #666666;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.about_r_bottom a{
+    color: #464646;
+    text-decoration: underline;
+}
+
+.about_r_bottom a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Избранные проекты */
+.pr_photo h2{
+    color: #a3a2a3;
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-top: 80px;
+}
+
+.proj_table{
+    border-collapse: separate;
+    border-spacing: 20px 0px;
+}
+
+.proj_1 img{
+    width: 700px;
+    height: 500px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.proj_2 img{
+    width: 700px;
+    height: 500px;
+    padding-bottom: 10px;
+}
+
+.proj_1 img:hover, .proj_2 img:hover{
+    opacity: 0.8;
+}
+.proj_1, .proj_2 span{
+    font-size: 20px;
+}
+
+.button_proj{
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .03vw;
+    padding: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #212021;
+    outline:auto;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.button_proj:hover{
+    text-decoration: none;
+    background-color: #434343;
+}
+
+.button_proj a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Услуги */
+.usl_table{
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+    padding-top: 80px;
+}
+.us_left{
+    color: #a3a2a3;
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 500px;
+}
+.us_right{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.usl_table_num{
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+    padding-top: -50px;
+}
+.usl_table_num img{
+    width: 20px;
+    height: 20px;
+}
+.usl_table_num .price{
+    color: #aaaaaa;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.usl_table_num .number{
+    padding-right: 450px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.usl_table_num a{
+    text-decoration: none;
+    padding-right: 150px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #212021;
+}
+.usl_table_num a:hover{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #212021;
+}
+.uslugi img{
+    width: 100%;
+}
+
+/* Обратная связь */
+.form_top{
+    color: #a3a2a3;
+    font-size: 17px;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 500px;
+}
+.form_bot{
+    font-size: 44px;
+    font-weight: 500;
+}
+.form_data{
+    padding-left: 500px;
+    margin-top: -100px;
+}
+.form_data input{
+    color: rgb(33, 32, 33);
+    border: 0;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    font-size: 20px;
+    font-weight: 400;
+    height: 45px;
+    outline: none;
+    width: 95%;
+}
+.button_form{
+    font-family: 'HelveticaNeue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: .03vw;
+    padding: 15px;
+    width: 95%;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #212021;
+    outline:auto;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.button_form a{
+    text-decoration: none;
+    color: white;
+}
+.button_form:hover{
+    background-color: #505050;
+}
+
+/* Контакты */
+
+.logo_inf{
+    display: inline;
+}
+.logo_inf img{
+    width: 40px;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.logo_inf span{
+    line-height: 18px;
+    color: #a3a2a3;
+    padding-left: 10px;
+}
+/* Контакты */
+.contacts{
+    padding-left: 300px;
+    margin-top: -60px;
+}
+.contacts p{
+    line-height: 28px;
+    color: #a3a2a3;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.contacts a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.contacts span{
+    line-height: 25px;
+    padding-left: 10px;
+}
+.contacts a:hover{
+    text-decoration: none;
+    color: #6a6a6a;
+}
+/* Соц сети */
+.app{
+    padding-left: 600px;
+    margin-top: -100px;
+}
+.app span{
+    line-height: 28px;
+    color: #a3a2a3;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.app a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.app a:hover{
+    text-decoration: none;
+    color: #2254bf;
+}
+.button_up{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 93%;
+    padding-bottom: 50px;
+}
+.button_up:hover{
+    text-decoration: none;
+    color: #2271c6;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 93%;
+}
